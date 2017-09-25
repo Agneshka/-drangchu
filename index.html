@@ -7,8 +7,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="manifest" href="../boiltenplate/dist/site.webmanifest">
-        <link rel="apple-touch-icon" href="../boiltenplate/dist/icon.png">
+        <!--<link rel="manifest" href="../boiltenplate/dist/site.webmanifest">-->
+        <!--<link rel="apple-touch-icon" href="../boiltenplate/dist/icon.png">-->
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
@@ -23,14 +23,76 @@
     </head>
     <body>
         <!--[if lte IE 9]>
+        <script src="../../assets/js/html5shiv.js"></script>
+        <script src="../../assets/js/respond.min.js"></script>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
 <header>
     <!--your header-->
-</header>
-        <div class="container-fluid">
+    </header>
+            <div class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="wrapper">
+                        <section class="head">
+                            <div class="row">
+                                <div class="col-md-12 backgr"></div>
+                                <div class="col-md-12 first-slider">
+                                    <div class="row">
+                                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                            <!-- Маркеры слайдов -->
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                            </ol>
 
+                                            <!-- Содержимое слайдов -->
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <img src="img/Dscn4066-pendennis-dark-in-shed_crop_1200x600.jpg" alt="...">
+                                                    <div class="carousel-caption">
+                                                        <h3>Россия (Москва)</h3>
+                                                        <p>Где это видано, чтобы люди в Москве без прописки проживали.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/Dscn4066-pendennis-dark-in-shed_crop_1200x600.jpg" alt="...">
+                                                    <div class="carousel-caption">
+                                                        <h3>Осень</h3>
+                                                        <p>Осень — это вторая весна, когда каждый лист — цветок.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/Dscn4066-pendennis-dark-in-shed_crop_1200x600.jpg" alt="...">
+                                                    <div class="carousel-caption">
+
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolore dolorem eaque earum, id impedit inventore laborum maxime necessitatibus non obcaecati officia quam quasi repellat reprehenderit repudiandae tenetur ut voluptatum.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Controls -->
+                                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                            </a>
+                                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="architecture">
+
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
 <!--all scripts-->
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>

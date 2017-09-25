@@ -95,8 +95,53 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+section{
+    margin-top: 30px;
+    /*margin-bottom: 20px;*/
+}
+.wrapper{
+    width: 1280px;
+    max-width: 100%;
+
+}
+.backgr{
+    height: 960px;
+    background: url("../img/New_Front_View1.jpg") center no-repeat;
+}
+.first-slider{
+    width: 600px;
+    margin-bottom: 30px;
+}
 
 
+
+
+
+
+
+
+/*slider*/
+.carousel .item {
+    -webkit-transition: 0.7s ease-in-out opacity;
+    -moz-transition: 0.7s ease-in-out opacity;
+    -o-transition: 0.7s ease-in-out opacity;
+    transition: 0.7s ease-in-out opacity;
+    left: 0 !important;
+}
+.carousel .next.left,
+.carousel .prev.right {
+    opacity: 1;
+    z-index: 1;
+}
+.carousel .active.left,
+.carousel .active.right {
+    opacity: 0;
+    z-index: 2;
+}
+.carousel .carousel-control {
+    z-index: 1000;
+    outline:none;
+}
 
 
 
