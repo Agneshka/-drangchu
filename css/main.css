@@ -80,7 +80,11 @@ fieldset {
 textarea {
     resize: vertical;
 }
-
+.text-m p{
+    line-height: 1;
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+}
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -99,10 +103,11 @@ section{
     margin-top: 30px;
     /*margin-bottom: 20px;*/
 }
-.wrapper{
+.main-container{
     width: 1280px;
     max-width: 100%;
-
+}
+.wrapper{
 }
 .backgr{
     height: 960px;
@@ -113,10 +118,124 @@ section{
     margin-bottom: 30px;
 }
 
+/*section country*/
+.carousel-secound{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.container-country{
+    margin-top: 40px;
+}
+.text-m{
+    position: absolute;
+    left: 0 !important;
+    width: 700px;
+    max-width: 100%;
+    margin-left: 10%;
+}
+.countries{
+}
+.row-country{
+    margin: 20px 0 35px 0;
+}
+.item-country{
+    text-align: center;
+    width: 125px;
+    height: 80px;
+}
+.item-country figure{
+    text-align: center;
+    width: 44px;
+    height: 33px;
+}
+.item-country figure figcaption p{
+    width: 140px;
+    font-size: 13px;
+    font-family: 'Merriweather', serif;
+}
+.item-country>figure>img,.double-figure>img{
+    width: 44px;
+    height: 33px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+.double-figure{
+    margin-top: 5px;
+}
+.double-f{
+    position: absolute;
+    margin-left: 15px !important;
+    z-index: 1;
+    height: 33px;
+}
+.double-text{
+    margin-top: 20px;
+}
+.double-s{
+    position: absolute;
+    z-index: 0;
+}
+.picture-descrpt img{
+    width: 156px;
+    max-width: 100%;
+    height: 54px;
+}
+.double-text{
+    position: absolute;
+    bottom: 0;
+    top:36px;
+}
+.row-description{
+    display: flex;
+    justify-content: center;
+}
+.text-description{
+    width: 580px;
+    max-width: 100%;
+    padding-left: 50px;
+}
+.text-description p{
+    line-height: 28px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+/*section our team*/
 
-
-
-
+.picture-team{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.picture-team figure img{
+    width: 352px;
+    max-width: 100%;
+    height: 352px;
+}
+.team-text{
+    margin-top: 100px;
+    height: 500px;
+    max-height:100% ;
+    margin-bottom: 100px;
+    max-width: 100%;
+}
+.text-block p{
+    line-height: 57px;
+    width: 216px;
+    max-width: 100%;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+/*section project*/
+.slider-project{
+    height: 700px;
+    max-height: 100%;
+}
 
 
 
@@ -141,6 +260,19 @@ section{
 .carousel .carousel-control {
     z-index: 1000;
     outline:none;
+}
+
+
+.carousel-indicators li {
+
+    width: 18px !important;
+    height: 18px !important;
+    background-color: rgba(211, 47, 47, 0.3) !important;
+    border: 0px solid rgba(211, 47, 47, 0.3) !important;
+    background: rgba(211, 47, 47, 0.3) !important;
+}
+.carousel-indicators .active{
+    background: #a63e3e !important;
 }
 
 
