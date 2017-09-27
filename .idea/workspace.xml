@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fb7907e-ae60-43e5-8afd-5ca05d2970fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gradient.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/house.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/meta/budda.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/meta/lotos.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/meta/mat.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/meta/plant.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/meta/salad.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/meta/shape.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/profile.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/signature.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -32,14 +21,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60788864">
+    <splitter split-orientation="horizontal" split-proportion="0.54879594">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="568">
-                  <caret line="420" column="56" lean-forward="false" selection-start-line="420" selection-start-column="56" selection-end-line="420" selection-end-column="56" />
+                <state relative-caret-position="414">
+                  <caret line="698" column="32" lean-forward="false" selection-start-line="698" selection-start-column="32" selection-end-line="698" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -55,7 +44,7 @@
                 <state relative-caret-position="3383">
                   <caret line="204" column="42" lean-forward="false" selection-start-line="204" selection-start-column="42" selection-end-line="204" selection-end-column="42" />
                   <folding>
-                    <marker date="1506472495919" expanded="true" signature="31793:31859" ph="..." />
+                    <marker date="1506477101712" expanded="true" signature="36334:36400" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -64,8 +53,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="446">
-                  <caret line="273" column="24" lean-forward="false" selection-start-line="273" selection-start-column="24" selection-end-line="273" selection-end-column="24" />
+                <state relative-caret-position="178">
+                  <caret line="303" column="14" lean-forward="false" selection-start-line="303" selection-start-column="14" selection-end-line="303" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -160,24 +149,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drangchub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drangchub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="succsses-pj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,18 +315,18 @@
       <updated>1506199053022</updated>
       <workItem from="1506199069765" duration="4146000" />
       <workItem from="1506355174568" duration="23878000" />
-      <workItem from="1506454486170" duration="16789000" />
+      <workItem from="1506454486170" duration="21376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44813000" />
+    <option name="totallyTimeSpent" value="49400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18060836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18060836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -390,7 +361,7 @@
         <state relative-caret-position="3383">
           <caret line="199" column="42" lean-forward="false" selection-start-line="199" selection-start-column="42" selection-end-line="199" selection-end-column="42" />
           <folding>
-            <marker date="1506472495919" expanded="true" signature="31793:31859" ph="..." />
+            <marker date="1506477101712" expanded="true" signature="36334:36400" ph="..." />
           </folding>
         </state>
       </provider>
@@ -408,7 +379,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1506472495919" expanded="true" signature="31793:31859" ph="..." />
+            <marker date="1506477101712" expanded="true" signature="36334:36400" ph="..." />
           </folding>
         </state>
       </provider>
@@ -538,15 +509,15 @@
         <state relative-caret-position="3383">
           <caret line="204" column="42" lean-forward="false" selection-start-line="204" selection-start-column="42" selection-end-line="204" selection-end-column="42" />
           <folding>
-            <marker date="1506472495919" expanded="true" signature="31793:31859" ph="..." />
+            <marker date="1506477101712" expanded="true" signature="36334:36400" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="273" column="24" lean-forward="false" selection-start-line="273" selection-start-column="24" selection-end-line="273" selection-end-column="24" />
+        <state relative-caret-position="178">
+          <caret line="303" column="14" lean-forward="false" selection-start-line="303" selection-start-column="14" selection-end-line="303" selection-end-column="14" />
           <folding />
         </state>
       </provider>
