@@ -357,7 +357,7 @@ section{
     padding-bottom: 40px;
 
 }
-.main-btn button{
+.main-btn button ,.main-btn button a{
     /*border:0;*/
     outline: none;
     border-radius: 8px;
@@ -370,7 +370,13 @@ section{
     background: #821917;
     font-size: 24px;
     margin-top:30px ;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
 }
+
+
+
 .main-btn p{
     text-align: center;
     font-weight: bold;
@@ -397,20 +403,51 @@ section{
     padding-top: 30px;
 }
 .button-bottom{
-    margin-top: 165px;
+    margin-top: 171px;
 }
-.other-btn button, .button-bottom button{
-    padding: 15px;
-    border-radius: 8px;
+.other-btn button, .button-bottom button,
+.other-btn button a, .button-bottom button a{
+    padding: 15px !important;
+    border-radius: 8px !important;
     outline: none;
+    height: 50px !important;
     /*border:0;*/
     width: 370px;
     max-width: 100%;
-    background: #1F4788;
+    background: #1F4788 !important;
     color: #fff;
-    font-size: 22px;
+    font-size: 22px !important;
     font-family: "Roboto Slab",serif;
     font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+}
+
+.waves-effect-custom{
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+}
+.waves-effect-custom{
+    -webkit-tap-highlight-color: transparent;
+}
+.btn_{
+    border: 0;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    white-space: normal!important;
+    cursor: pointer;
+}
+.waves-effect-custom{
+    overflow: hidden;
+}
+.button-bottom button a{
+    padding: 10px !important;
 }
 .text-section{
     width: 100%;
